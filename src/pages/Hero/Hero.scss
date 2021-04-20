@@ -1,0 +1,71 @@
+.hero{
+    padding: 70px 0px;
+    display: flex;
+    &__img{
+        position: relative;
+        width: 500px;
+        img{
+            border: 1px solid #ccc;
+            padding: 7px;
+            border-radius: 0 20px 0 20px;
+            object-fit: cover;
+            width: 500px;
+            height: 500px;
+        }
+        button{
+            cursor: pointer;
+            position: absolute;
+            bottom: 30px;
+            right: 8px;
+            width: 100px;
+            border: none;
+            padding: 5px;
+            background-color: rgba(134, 134, 134, 0.842);
+            color: #fff;
+            &:hover{
+                background-color: rgb(157, 238, 124);
+            }
+        }
+    }
+    h1{
+        position: absolute;
+        top: 30px;
+        left: 8px;
+        padding: 8px;
+        font-size: 30px;
+        font-weight: normal;
+        color: #fff;
+        border-radius: 0 0 20px 0;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    &__body{
+        padding-top: 10px;
+        p{
+            text-align: justify;
+            width: auto;
+            height: 375px;
+            white-space: wrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        padding-left: 20px;
+        h2{
+            color: rgb(133, 214, 133);
+            line-height: 22px;
+            padding-bottom: 10px;
+        }
+        h3{
+            color: rgb(133, 214, 133);
+            a{
+                color: rgb(190, 155, 223);
+            }
+        }
+        h5{
+            color: rgb(15, 15, 15);
+            a{
+                color: red;
+            }
+        }
+
+    }
+}

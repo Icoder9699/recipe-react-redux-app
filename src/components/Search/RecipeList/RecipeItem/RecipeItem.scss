@@ -1,0 +1,16 @@
+.RecipeItem{
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    box-shadow: 0 0 10px #ccc;
+    img{
+        width: 100%;
+        object-fit: contain;
+    }
+    &:hover{
+        border: none;
+        box-shadow: 0 0 10px 1px rgb(150, 253, 159);
+    }
+}
