@@ -1,4 +1,4 @@
-demo: https://recipe-app-4f133.web.app/
+demo: https://recipe-app-4f133.firebaseapp.com/
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
