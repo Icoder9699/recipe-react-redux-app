@@ -1,3 +1,4 @@
+Hi, this is recipe app with react + redux + react hooks<br/>
 demo: https://recipe-app-4f133.firebaseapp.com/
 # Getting Started with Create React App
 
