@@ -4,6 +4,7 @@ This is recipe app created with
 <li>ReactJS</li>
 <li>React Hooks</li>
 <li>React-router-dom</li>
+<li>React animations</li> 
 <li>Redux</li>
 <li>Redux Thunk</li> 
 <hr/>
